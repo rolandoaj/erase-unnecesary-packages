@@ -1,0 +1,6 @@
+---
+- name: remove unnecesary packages
+  yum:
+    name: "{{ packages }}"
+    state: absent
+    

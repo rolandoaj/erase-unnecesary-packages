@@ -1,0 +1,8 @@
+---
+# tasks file for erase-unnecesary-packages
+- name: Disabled packages
+  include_tasks: disable_packages.yml
+
+- name: Remove packages
+  include_tasks: remove_packages.yml
+  

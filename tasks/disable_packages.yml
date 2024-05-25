@@ -1,0 +1,5 @@
+---- 
+- name: disable unnecesary packages
+  service:
+    name: {{ packages }}
+    state: stopped
